@@ -1,5 +1,5 @@
 {
-"name": "Project-Ga",
+"name": "Porno",
 "version": "1", 
 "description": "Super Bot WhatsApp",
 "main": "index.js",
@@ -17,13 +17,13 @@
 "test": "node test.js",
 "test2": "nodemon index.js" },
     
-"homepage": "https://github.com/YallicoPe/Project-Ga",
+"homepage": "https://github.com/YallicoPe/Porno",
 "author": {
 "name": "YallicoPe" },
     
 "repository": {
 "type": "git",
-"url": "git+https://github.com/YallicoPe/Project-Ga.git" },
+"url": "git+https://github.com/YallicoPe/Porno.git" },
 
 "bugs": {
 "url": "https://github.com/YallicoPe/Project-Ga/issues" },
