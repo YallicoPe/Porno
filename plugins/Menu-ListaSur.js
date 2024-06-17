@@ -90,7 +90,7 @@ console.log(e)
 }}
 handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
-handler.command = /^(MenuVs2\?)$/i
+handler.command = /^(MenuVs2|MenuVs2\?)$/i
 //handler.register = true
 handler.exp = 50
 handler.fail = null
