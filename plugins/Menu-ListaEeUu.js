@@ -72,8 +72,7 @@ let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
   let pp = './Menu2.jpg'
 //let pp = gataVidMenu.getRandom()
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-
-let menu = `
+let listavs2 = `
   ╭━〔 *🕷️ Free Fire EeUu 🕷️* 〕
  *┃➤* _${usedPrefix}ListaVs13_
  *┃➤* _${usedPrefix}ListaVs15_
@@ -82,7 +81,7 @@ let menu = `
  *┃➤* _${usedPrefix}ListaVs21_
   ╰━━━━━━━━━━━━━`.trim()
 await conn.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })
-await conn.sendFile(m.chat, pp, 'lp.jpg', menu, m, false, { contextInfo: { forwardedNewsletterMessageInfo: { newsletterJid: '120363160031023229@newsletter', serverMessageId: '', newsletterName: '𝙋𝙍𝙊𝙔𝙀𝘾𝙏𝙊 - 𝙈𝘿 🕷️' }, mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: '𝙋𝙍𝙊𝙔𝙀𝘾𝙏𝙊 𝙓 🕷️', previewType: 0, thumbnail: imagen3, sourceUrl: [md, yt, tiktok].getRandom()}}})
+await conn.sendFile(m.chat, pp, 'lp.jpg', listavs2, m, false, { contextInfo: { forwardedNewsletterMessageInfo: { newsletterJid: '120363160031023229@newsletter', serverMessageId: '', newsletterName: '𝙋𝙍𝙊𝙔𝙀𝘾𝙏𝙊 - 𝙈𝘿 🕷️' }, mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: '𝙋𝙍𝙊𝙔𝙀𝘾𝙏𝙊 𝙓 🕷️', previewType: 0, thumbnail: imagen3, sourceUrl: [md, yt, tiktok].getRandom()}}})
 	  
 } catch (e) {
 //await conn.sendButton(m.chat, `\n${wm}`, lenguajeGB['smsMalError3']() + '#report ' + usedPrefix + command, null, [[lenguajeGB.smsMensError1(), `#reporte ${lenguajeGB['smsMensError2']()} *${usedPrefix + command}*`]], m)
@@ -90,7 +89,7 @@ console.log(e)
 }}
 handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
-handler.command = /^(listavs2|ListaVS2\?)$/i
+handler.command = /^(MenuVs1|MenuVs1\?)$/i
 //handler.register = true
 handler.exp = 50
 handler.fail = null
