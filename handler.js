@@ -1378,7 +1378,7 @@ if (settingsREAD.autoread2) await this.readMessages([m.key])
 //if (settingsREAD.autoread2 == 'true') await this.readMessages([m.key])    
 	    
 if (!m.fromMem && m.text.match(/(@5492266466080|LoliBot|Botsito|Gata|:v)/gi)) {
-let emot = pickRandom(["😺", "😸", "😹", "😻", "😼", "😽", "🙀", "😿", "😾", "🤩", "😏", "😳", "🥵", "🤯", "😱", "😨", "🤫", "🥴", "🤧", "🤑", "🤠", "🤖", "🤝", "💪", "👑", "😚", "🐱", "🐈", "🐆", "🐅", "⚡️", "🌈", "☃️", "⛄️", "🌝", "🌛", "🌜", "🍓", "🍎", "🎈", "🪄", "❤️", "🧡", "💛", "💚", "💙", "💜", "🖤", "🤍", "💘", "💝", "💟", "🌝", "😎", "🔥", "🖕", "🐦"])
+let emot = pickRandom([""])
 this.sendMessage(m.chat, { react: { text: emot, key: m.key }})}
 function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]}}}
 
@@ -1434,12 +1434,12 @@ mentionedJid:[user],
 "showAdAttribution": true,
 "renderLargerThumbnail": true,
 "thumbnail": apii.data, 
-"title": [wm, ' ' + wm + '😊', '🌟'].getRandom(),
+"title": [wm, ' ' + wm + '😊', 'https://www.instagram.com/cristhofer_yallico'].getRandom(),
 "containsAutoReply": true,
 "mediaType": 1, 
 sourceUrl: [md, nna, yt, nnn, nn, tiktok].getRandom()}}}, { quoted: fkontak2 }) 
 if (media === 'audio')
-this.sendMessage(id, { audio: { url: vn }, contextInfo:{ mentionedJid:[user], "externalAdReply": { "thumbnail": apii.data, "title": `乂 ＷＥＬＣＯＭＥ 乂`, "body": [wm, ' ' + wm + '😊', '🌟'].getRandom(), "previewType": "PHOTO", "thumbnailUrl": null, "showAdAttribution": true,  sourceUrl: [md, nna, yt, nn, tiktok].getRandom()}},  ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: fkontak2 })
+this.sendMessage(id, { audio: { url: vn }, contextInfo:{ mentionedJid:[user], "externalAdReply": { "thumbnail": apii.data, "title": `乂 ＷＥＬＣＯＭＥ 乂`, "body": [wm, ' ' + wm + '😊', 'https://www.instagram.com/cristhofer_yallico'].getRandom(), "previewType": "PHOTO", "thumbnailUrl": null, "showAdAttribution": true,  sourceUrl: [md, nna, yt, nn, tiktok].getRandom()}},  ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: fkontak2 })
 //this.sendFile(id, apii.data, 'pp.jpg', text, null, false, { mentions: [user] }, { quoted: fkontak2 })
 }}}
 			    
@@ -1523,7 +1523,7 @@ restrict: lenguajeGB['smsRestrict'](),
 }[type]
 //if (msg) return m.reply(msg)
 let tg = { quoted: m, userJid: conn.user.jid }
-let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: lenguajeGB.smsAvisoAG().slice(0,-2), body: [wm, ' ' + wm + ' 😊', '🌟'].getRandom(), thumbnail: img.getRandom(), sourceUrl: [md, nna, yt, nn, tiktok].getRandom() }}}}, tg)
+let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: lenguajeGB.smsAvisoAG().slice(0,-2), body: [wm, ' ' + wm + '🕷️', 'https://www.instagram.com/cristhofer_yallico'].getRandom(), thumbnail: img.getRandom(), sourceUrl: [md, nna, yt, nn, tiktok].getRandom() }}}}, tg)
 if (msg) return conn.relayMessage(m.chat, prep.message, { messageId: prep.key.id })
 }
 
