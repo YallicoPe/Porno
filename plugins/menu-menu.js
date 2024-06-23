@@ -89,8 +89,8 @@ let menu = `╭━〔 *🕷️ Proyecto Creador 🕷️* 〕
   
   ╭━〔 *🕷️ Proyecto Free Fire 🕷️* 〕
  *┃➤* _${usedPrefix}Reglas / Free Fire_
- *┃➤* _${usedPrefix}ListaSur/ Versus_
- *┃➤* _${usedPrefix}ListaEeUu / Versus_
+ *┃➤* _${usedPrefix}MenuVs1 / Versus_
+ *┃➤* _${usedPrefix}MenuVs2 / Versus_
   ╰━━━━━━━━━━━━━
 
 
